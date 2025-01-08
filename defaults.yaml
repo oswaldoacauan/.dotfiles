@@ -3,8 +3,8 @@ NSGlobalDomain:
   # controls.
   AppleKeyboardUIMode: 3
 
-  # System Preferences > General > Sidebar icon size > Large.
-  NSTableViewDefaultSizeMode: 3
+  # System Preferences > General > Sidebar icon size > Medium.
+  NSTableViewDefaultSizeMode: 2
 
   # Disable press and hold character picker.
   ApplePressAndHoldEnabled: false
@@ -13,10 +13,13 @@ NSGlobalDomain:
   NSScrollAnimationEnabled: false
 
   # delay to start repeating keys (ms)
-  InitialKeyRepeat: 400
+  InitialKeyRepeat: 15
 
   # delay to repeat a key (1 = 15ms)
   KeyRepeat: 1
+
+com.apple.BluetoothAudioAgent:
+  "Disable HFP": 1
 
 com.apple.desktopservices:
   # Disable .DS_Store files on network drives.
@@ -55,10 +58,6 @@ com.apple.iTunes:
   # iTunes > Preferences > Devices > Prevent iPods, iPhones, and iPads from
   # syncing automatically.
   dontAutomaticallySyncIPods: true
-
-com.apple.Safari:
-  # Use substring search by default in Safari.
-  FindOnPageMatchesWordStartsOnly: false
 
 com.apple.TextEdit:
   # TextEdit > Preferences > New Document > Plain text.

@@ -21,7 +21,11 @@ export PUPPETEER_EXECUTABLE_PATH=`which chromium`
 export NODE_GYP_FORCE_PYTHON=/opt/homebrew/bin/python3.10
 
 export GEM_HOME="$HOME/.gem"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+export GITLAB_TOKEN="$(git config --global gitlab.oauth-token)"
+
+export EDITOR=cursor
+
+eval "$(fastly --completion-script-zsh)"

@@ -1,0 +1,8 @@
+theme = catppuccin-macchiato
+keybind = global:cmd+shift+d=toggle_quick_terminal
+quick-terminal-screen = "mouse"
+window-padding-balance = true
+window-padding-x = 12
+window-padding-y = 8
+macos-titlebar-style = hidden
+quick-terminal-animation-duration = 0
