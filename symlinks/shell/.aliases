@@ -9,6 +9,13 @@ elif [[ $unamestr == "Darwin" ]]; then
   platform="darwin"
 fi
 
+# Always use bat
+alias cat="bat --paging=never"
+
+batdiff() {
+  git diff --name-only --relative --diff-filter=d | xargs bat --diff
+}
+
 # Always use vim
 alias vi="vim"
 

@@ -28,4 +28,6 @@ export GITLAB_TOKEN="$(git config --global gitlab.oauth-token)"
 
 export EDITOR=cursor
 
+export HOMEBREW_NO_ENV_HINTS=0
+
 eval "$(fastly --completion-script-zsh)"
